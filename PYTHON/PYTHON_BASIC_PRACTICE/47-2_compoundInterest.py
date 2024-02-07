@@ -1,6 +1,6 @@
-principal = 2000000#int(input('금액 입력 : '))
-interest = 5.1#float(input('이율 입력 : '))
-duration = 6#int(input('기간 입력 : '))
+principal = int(input('금액 입력 : '))
+interest = float(input('이율 입력 : '))
+duration = int(input('기간 입력 : '))
 fv = principal * (1 + interest / 100) ** duration
 
 print('-' * 20)
