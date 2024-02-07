@@ -8,7 +8,7 @@ endNumber = vehicleNumber % 10
 now = datetime.datetime.now()
 
 print('-' * 25)
-print(now.weekday())
+print(now)
 print('-' * 25)
 
 if fineDust <= 150 or vehicleType == 2 :
