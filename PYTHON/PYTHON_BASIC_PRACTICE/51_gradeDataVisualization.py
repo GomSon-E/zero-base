@@ -4,11 +4,11 @@ mathA = 89
 scienceA = 75
 historyA = 94
 
-koreanS = 91#int(input('국어 점수 입력 : '))
-englishS = 92#int(input('영어 점수 입력 : '))
-mathS = 61#int(input('수학 점수 입력 : '))
-scienceS = 58#int(input('과학 점수 입력 : '))
-historyS = 90#int(input('국사 점수 입력 : '))
+koreanS = int(input('국어 점수 입력 : '))
+englishS = int(input('영어 점수 입력 : '))
+mathS = int(input('수학 점수 입력 : '))
+scienceS = int(input('과학 점수 입력 : '))
+historyS = int(input('국사 점수 입력 : '))
 
 koreanD = koreanS - koreanA
 englishD = englishS - englishA
