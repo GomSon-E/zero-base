@@ -1,0 +1,3 @@
+import lotto
+
+lotto.start()
