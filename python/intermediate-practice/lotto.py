@@ -55,7 +55,7 @@ def getResult():
         print('!!4등 당첨!!')
         print(f'일치 번호: {correctNums}')
     elif correctCnt == 3:
-        print('!!3등 당첨!!')
+        print('!!5등 당첨!!')
         print(f'일치 번호: {correctNums}')
     else:
         print('아쉽습니다. 다음 기회에~')
