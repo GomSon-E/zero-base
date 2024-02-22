@@ -11,5 +11,8 @@ for i in range(1, (num1 if num1 > num2 else num2) + 1):
     if num1 % i == 0 and num2 % i == 0:
         cdList.append(i)
 
-print(f'공약수: {cdList}')
-print(f'최대공약수: {max(cdList)}')
+if len(cdList) > 1:
+    print(f'공약수: {cdList}')
+    print(f'최대공약수: {max(cdList)}')
+else:
+    print(f'{num1}와 {num2}는 서로소 이다.')
