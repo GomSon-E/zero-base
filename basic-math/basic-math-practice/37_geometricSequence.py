@@ -1,0 +1,5 @@
+n = int(input('n 입력: '))
+an = 2 * (3 ** (n - 1))
+sn = int(2 * (1 - 3 ** n) / -2)
+print(f'n번째 항의 값: {an}')
+print(f'n번째 항까지의 값: {sn}')
