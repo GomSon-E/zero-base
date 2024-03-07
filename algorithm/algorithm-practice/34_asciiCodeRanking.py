@@ -19,7 +19,4 @@ for i, n1 in enumerate(asciiData):
             rank[i] += 1
 
 for i in range(len(rank)):
-    if isinstance(data[i], str):
-        print(f'data: {data[i]}\t\trank: {rank[i]}')
-    else:
-        print(f'data: {data[i]}\trank: {rank[i]}')
+    print(f'data: {data[i]:>2} \t rank: {rank[i]:>2}')
